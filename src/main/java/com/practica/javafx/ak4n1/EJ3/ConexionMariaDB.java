@@ -5,14 +5,14 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-public class Conexion {
+public class ConexionMariaDB {
     private static final String URL = "jdbc:mariadb://localhost:3306/arquitecturas_ej2";
     private static final String USER = "root";
     private static final String PASSWORD = "";
 
     private static Connection conn = null;
 
-    private Conexion() {}
+    private ConexionMariaDB() {}
 
     public static Connection getInstance() {
         if (conn == null) {

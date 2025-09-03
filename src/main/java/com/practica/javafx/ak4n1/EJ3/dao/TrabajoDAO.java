@@ -17,4 +17,4 @@ public interface TrabajoDAO {
 
     Trabajo buscarPorId(int id);
 }
-}
+
