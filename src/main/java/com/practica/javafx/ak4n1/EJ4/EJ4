@@ -1,0 +1,5 @@
+1 - Facilidad para cambiar la base de datos
+2 - Facilidad para encontrar y gestionar las consultas sql sin tener que explorar todo un proyecto
+3 - Mejor manejo de las responsabilidades ya que cada dao se encarga de 1 sola entidad.
+4 - Reutilizacion de codigo ya que no tenemos que repetir codigo y podemos reutilizar los DAO
+5 - Mejor uso de la memoria (Singleton) para la conexion
